@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(25, 153, 172, 0.962);
+  margin: 0;
+  color: #2a1c1c;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+}
+
+.mealFinder {
+  margin: auto;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.mealFinder__title {
+  font-size: 4rem;
+  margin: 1.5rem 0;
+  letter-spacing: -0.15rem;
+}
+.mealFinder__flex {
+  display: flex;
+}
+.mealFinder input,
+.mealFinder button {
+  border: 1px solid #dedede;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-size: 14px;
+  padding: 8px 10px;
+  margin: 0;
+}
+.mealFinder input[type=text] {
+  width: 300px;
+}
+.mealFinder--btn {
+  cursor: pointer;
+  border-left: 0;
+  border-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.mealFinder--randomBtn {
+  cursor: pointer;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  margin: 10px;
+}
+
+@media (max-width: 500) {
+  input[type=text] {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

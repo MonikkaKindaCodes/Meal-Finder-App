@@ -1,0 +1,19 @@
+{
+  "name": "meal-finder-app",
+  "version": "1.0.0",
+  "description": "Meal finder application using Meal DB API",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonikkaKindaCodes/Meal-Finder-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonikkaKindaCodes/Meal-Finder-App/issues"
+  },
+  "homepage": "https://github.com/MonikkaKindaCodes/Meal-Finder-App#readme"
+}

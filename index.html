@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal Finder</title>
+    <script
+      src="https://kit.fontawesome.com/446cb56f1e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="mealFinder">
+      <h1 class="mealFinder__title">Meal Finder</h1>
+      <div class="mealFinder__flex">
+        <form class="mealFinder__flex mealFinder__submit">
+          <input
+            type="text"
+            class="mealFinder__search"
+            placeholder="Search for meals or keywords"
+          />
+          <button class="mealFinder--btn" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <button class="mealFinder--randomBtn mealFinder__random">
+          <i class="fas fa-random"></i>
+        </button>
+      </div>
+
+      <div class="mealFinder__resultHeading"></div>
+      <div class="mealFinder__meals"></div>
+      <div class="mealFinder__singleMeal"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
